@@ -43,3 +43,76 @@ pip install pandas matplotlib seaborn scikit-surprise streamlit
 
 ```
 
+
+
+# Usage
+- Running the recommender from command line
+
+- python movie_recommender.py
+
+    - Loads data from data/ directory.
+
+    - Trains the SVD model if not already saved.
+
+    - Performs EDA and saves plots (ratings_distribution.png, ratings_per_user.png).
+
+    - Prints top 10 movie recommendations for user ID 50.
+
+# Using the Streamlit Web App
+``` bash
+ streamlit run app.py
+ ```
+
+- Provides filters in the sidebar for genres, language, and movie title search.
+
+- Input user ID to get personalized movie recommendations.
+
+- Shows movie titles, release dates, genres, estimated ratings, and placeholder posters.
+
+- Allows users to rate movies, adding ratings dynamically.
+
+# Code Overview
+- MovieRecommender Class
+
+    - Initialization: Loads data and trains or loads the SVD model.
+
+    - load_data(): Reads MovieLens ratings (u.data) and movie info (u.item) with genres.
+
+    - eda(): Generates and saves plots for ratings distribution and number of ratings per user.
+
+    - train_or_load_model(): Loads existing model or trains new SVD model on the ratings data.
+
+    - recommend_movies(user_id, top_n=10): Recommends top-N movies for the given user based on predicted ratings.
+
+    - add_rating(user_id, movie_id, rating): Adds a new rating to the dataset (no retraining).
+
+# Notes
+
+- The movie posters in the Streamlit app are placeholders (https://via.placeholder.com/100x150?text=Movie).
+
+- Ratings are stored in memory during runtime; new ratings won't persist unless saved externally.
+
+- The dataset uses the MovieLens 100K data format.
+
+- The language column is simulated as "English" for demonstration purposes.
+
+- Model is saved as svd_model.pkl after training to avoid retraining on every run.
+
+# Sample Output
+
+``` bash 
+Loaded 100000 ratings and 1682 movies.
+Training new SVD model...
+Evaluating model on test set...
+RMSE: 0.9352
+Model saved to svd_model.pkl
+
+Top 10 movie recommendations for user 50:
+1. Star Wars (1977) - Predicted Rating: 4.85
+2. Contact (1997) - Predicted Rating: 4.73
+...
+
+```
+
+# Further Actions
+- Providing movies based on specific user(using user_id)

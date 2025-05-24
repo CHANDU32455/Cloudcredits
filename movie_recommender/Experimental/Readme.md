@@ -98,7 +98,7 @@ pip install pandas matplotlib seaborn scikit-surprise streamlit
 
 - Model is saved as svd_model.pkl after training to avoid retraining on every run.
 
-# Sample Output
+# Output
 
 ``` bash 
 Loaded 100000 ratings and 1682 movies.

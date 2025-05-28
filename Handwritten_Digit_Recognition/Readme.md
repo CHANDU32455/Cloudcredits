@@ -70,7 +70,7 @@ To build a machine learning application capable of recognizing handwritten digit
 ![SamplePredictions](./updatedmodel_stuff/mnist_digit_classifier/sample_predictions.png)
 
 ### UI Output
-![TriningHistory](./updatedmodel_stuff/mnist_digit_classifier/)
+![UI output](./ui_output.png)
 
 ## 🧪 Sample Prediction Output
 
@@ -78,8 +78,6 @@ To build a machine learning application capable of recognizing handwritten digit
 Predicted Digit: 4 (Confidence: 0.98)
 ```
 ---
----
-
 
 # 🔧 Setup Instructions
 ## 1. Install Dependencies

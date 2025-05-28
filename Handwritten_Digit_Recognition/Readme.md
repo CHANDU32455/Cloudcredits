@@ -69,8 +69,7 @@ To build a machine learning application capable of recognizing handwritten digit
 Predicted Digit: 4 (Confidence: 0.98)
 ```
 ---
----
----
+
 
 # 🔧 Setup Instructions
 ## 1. Install Dependencies

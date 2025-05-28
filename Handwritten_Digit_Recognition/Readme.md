@@ -120,17 +120,14 @@ Handwritten_Digit_Recognition/
 └── __pycache__/               # Python bytecode cache
 ```
 
+
 ## Future Improvements
 
-    - Sound alerts or popup for predictions
-
-    - Add digit smoothing or cleanup for rough inputs
-
-    - Extend to web or mobile platforms
-
-    -  Allow retraining with user-drawn digits
-
-    - Dark mode or color options for canvas
+  - Sound alerts or popup for predictions
+  - Add digit smoothing or cleanup for rough inputs
+  - Extend to web or mobile platforms
+  - Allow retraining with user-drawn digits
+  - Dark mode or color options for canvas
 
 ## License
 

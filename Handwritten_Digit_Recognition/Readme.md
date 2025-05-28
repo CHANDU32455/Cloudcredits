@@ -44,7 +44,7 @@ To build a machine learning application capable of recognizing handwritten digit
 - **Upload Image**: Use external digit images (JPG, PNG)
 - **Predict Button**: Instantly predicts drawn/uploaded digit
 - **Clear Canvas**: Reset the drawing area
-- **Save Canvas**: Save your digit as an image
+- **Save Canvas**: Save your digit as an image(available in singlr filed script)
 - **Displays**:
   - Predicted digit
   - Confidence score
@@ -61,13 +61,13 @@ To build a machine learning application capable of recognizing handwritten digit
 6. Normalize pixel values
 7. Reshape for CNN input
 
----
 
 ## 🧪 Sample Prediction Output
 
 ```plaintext
 Predicted Digit: 4 (Confidence: 0.98)
 ```
+---
 ---
 
 
@@ -79,16 +79,16 @@ Predicted Digit: 4 (Confidence: 0.98)
 
 ```
 
-## 2. Train the Model (Optional)
+## 2. Run the Model (Optional)
 ```bash
-python train_model.py
+python PredictDigitModel.py
 ```
 - This will generate mnist_cnn_model.h5.
 
 ## 3. Launch the GUI App
 
 ```bash 
-python digit_gui.py
+python app.py
 ```
 
 - 📦 Files Structure

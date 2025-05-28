@@ -43,8 +43,6 @@ pip install pandas matplotlib seaborn scikit-surprise streamlit
 
 ```
 
-
-
 # Usage
 - Running the recommender from command line
 
@@ -98,21 +96,38 @@ pip install pandas matplotlib seaborn scikit-surprise streamlit
 
 - Model is saved as svd_model.pkl after training to avoid retraining on every run.
 
-# Output
+# Sample Output
 
 ``` bash 
 Loaded 100000 ratings and 1682 movies.
-Training new SVD model...
-Evaluating model on test set...
-RMSE: 0.9352
-Model saved to svd_model.pkl
+Loading model from svd_model.pkl ...
+Performing exploratory data analysis...
 
 Top 10 movie recommendations for user 50:
-1. Star Wars (1977) - Predicted Rating: 4.85
-2. Contact (1997) - Predicted Rating: 4.73
+1. Wrong Trousers, The (1993) - Predicted Rating: 4.81
+2. Star Wars (1977) - Predicted Rating: 4.72
+3. Raiders of the Lost Ark (1981) - Predicted Rating: 4.68
+4. Close Shave, A (1995) - Predicted Rating: 4.65
+5. North by Northwest (1959) - Predicted Rating: 4.62
+6. Shawshank Redemption, The (1994) - Predicted Rating: 4.61
+7. Casablanca (1942) - Predicted Rating: 4.58
+8. Return of the Jedi (1983) - Predicted Rating: 4.53
+9. Sunset Blvd. (1950) - Predicted Rating: 4.52
+10. Lawrence of Arabia (1962) - Predicted Rating: 4.50
 ...
 
 ```
+
+## 📸 Screenshots
+
+### 1. Ratings Distribution
+![Ratings Distribution](./ratings_distribution.png)
+
+### 2. Ratings Per User
+![Ratings Per User](./ratings_per_user.png)
+
+### UI Output
+![UI Output](./UI_output.png)
 
 # Further Actions
 - Providing movies based on specific user(using user_id)

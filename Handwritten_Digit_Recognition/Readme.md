@@ -44,7 +44,11 @@ To build a machine learning application capable of recognizing handwritten digit
 - **Upload Image**: Use external digit images (JPG, PNG)
 - **Predict Button**: Instantly predicts drawn/uploaded digit
 - **Clear Canvas**: Reset the drawing area
+<<<<<<< HEAD
 - **Save Canvas**: Save your digit as an image(available in singlr filed script)
+=======
+- **Save Canvas**: Save your digit as an image
+>>>>>>> 6852574 (final push)
 - **Displays**:
   - Predicted digit
   - Confidence score
@@ -61,6 +65,7 @@ To build a machine learning application capable of recognizing handwritten digit
 6. Normalize pixel values
 7. Reshape for CNN input
 
+<<<<<<< HEAD
 ## 📸 Screenshots
 
 ### 1. Confusion Matrix
@@ -71,6 +76,9 @@ To build a machine learning application capable of recognizing handwritten digit
 
 ### UI Output
 ![UI output](./ui_output.png)
+=======
+---
+>>>>>>> 6852574 (final push)
 
 ## 🧪 Sample Prediction Output
 
@@ -78,6 +86,11 @@ To build a machine learning application capable of recognizing handwritten digit
 Predicted Digit: 4 (Confidence: 0.98)
 ```
 ---
+<<<<<<< HEAD
+=======
+---
+---
+>>>>>>> 6852574 (final push)
 
 # 🔧 Setup Instructions
 ## 1. Install Dependencies
@@ -87,9 +100,15 @@ Predicted Digit: 4 (Confidence: 0.98)
 
 ```
 
+<<<<<<< HEAD
 ## 2. Run the Model (Optional)
 ```bash
 python PredictDigitModel.py
+=======
+## 2. Train the Model (Optional)
+```bash
+python train_model.py
+>>>>>>> 6852574 (final push)
 ```
 - This will generate mnist_cnn_model.h5.
 
@@ -128,6 +147,7 @@ Handwritten_Digit_Recognition/
 └── __pycache__/               # Python bytecode cache
 ```
 
+<<<<<<< HEAD
 
 ## Future Improvements
 
@@ -136,6 +156,19 @@ Handwritten_Digit_Recognition/
   - Extend to web or mobile platforms
   - Allow retraining with user-drawn digits
   - Dark mode or color options for canvas
+=======
+## Future Improvements
+
+    - Sound alerts or popup for predictions
+
+    - Add digit smoothing or cleanup for rough inputs
+
+    - Extend to web or mobile platforms
+
+    -  Allow retraining with user-drawn digits
+
+    - Dark mode or color options for canvas
+>>>>>>> 6852574 (final push)
 
 ## License
 
@@ -144,4 +177,8 @@ Handwritten_Digit_Recognition/
 ## 🙌 Credits
 
 - Developed by Chandu Chitteti
+<<<<<<< HEAD
 - Inspired by the MNIST digit classification challenge.
+=======
+- Inspired by the MNIST digit classification challenge.
+>>>>>>> 6852574 (final push)

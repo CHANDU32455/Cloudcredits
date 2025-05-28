@@ -61,6 +61,16 @@ To build a machine learning application capable of recognizing handwritten digit
 6. Normalize pixel values
 7. Reshape for CNN input
 
+## 📸 Screenshots
+
+### 1. Confusion Matrix
+![ConfusionMatrix](./updatedmodel_stuff/mnist_digit_classifier/confusion_matrix.png)
+
+### 2. Sample Predictions
+![SamplePredictions](./updatedmodel_stuff/mnist_digit_classifier/sample_predictions.png)
+
+### UI Output
+![TriningHistory](./updatedmodel_stuff/mnist_digit_classifier/)
 
 ## 🧪 Sample Prediction Output
 
